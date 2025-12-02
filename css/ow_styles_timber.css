@@ -1,0 +1,68 @@
+/* TIMBER HEARTH PAGE CSS STYLES */
+
+
+/* -- Navigation Bar -- */
+ul { /* The bar itself */
+	background-color: #543128;
+}
+
+ul li a { /*Inside of the buttons */
+	background-color: #774A33;
+}
+
+ul li a:hover, .dropdown:hover .dropbtn { /* Button hover color */
+	background-color: #706C6A;
+}
+
+
+
+/* -- HTML * Body Styles -- */
+html { /* Sets background color */
+	background-image: linear-gradient(to bottom, #383C22, #2B3D4F, #5D5240);
+}
+
+
+
+/* Main Styles */
+main h1#title { /* Title */
+	text-shadow: #57522E 4px 4px ;
+}
+
+#loopState div img { /* Loop state image settings */
+	border: 5px solid #BABCA7;
+}
+
+main > img { /* Attlerock image */
+	border: 5px solid #BABCA7;
+}
+
+
+
+/* -- POI Styles -- */
+h2.subSectionTitle { /* Sub-section titles */
+	font-family: 'Josefin Sans', 'Century Gothic', sans-serif;
+	text-align: center;
+	font-size: 1.75em;
+	text-shadow: black 3px 5px 3px;
+}
+
+main div.poiImgLeft img, main div.poiImgRight img, 
+main div.poiImgLeft video, main div.poiImgRight video { /* POI image/video settings */
+	border: 5px solid #BABCA7;
+}
+
+div#travAudio {
+	display: flex;
+	width: 100%;
+}
+
+div#travAudio audio {
+	margin: 0 1%;
+}
+
+
+
+/* -- Footer Styles -- */
+footer {
+	background-color: #543128;
+}

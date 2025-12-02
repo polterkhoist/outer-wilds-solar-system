@@ -1,0 +1,329 @@
+/*  DEFAULT CSS STYLES FOR EVERY PAGE
+	Includes all the styles that are the same across all CSS files so that I don't have to edit all of them to edit what they all share */
+
+
+/* -- Font Imports -- */
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(https://fonts.gstatic.com/s/josefinsans/v34/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url(https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLFj_Z1xlFQ.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Inconsolata';
+	src: url(https://fonts.gstatic.com/s/inconsolata/v37/QlddNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLyya15.woff2) format('woff2');
+}
+
+@font-face {
+	font-family: 'Space Mono';
+	src: url(https://fonts.gstatic.com/s/spacemono/v17/i7dPIFZifjKcF5UAWdDRYEF8RQ.woff2) format('woff2');
+}
+
+ 
+/* -- Navigation Bar -- */
+body > header > a > img { /* Title Banner */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+}
+
+ul { /* The bar itself */
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+ul li { /* Outside of the buttons */
+	padding: 9px 35px;
+}
+
+ul li a { /*Inside of the buttons */
+	display: block;
+	color: white;
+	padding: 10px 14px;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Josefin Sans', 'Century Gothic', sans-serif;
+	font-size: 1.25em;
+	font-weight: 650;
+}
+
+.dropdown:hover .dropbtn { /* Makes the bottom of the dropdown button flat */
+	border-radius: 10px 10px 0 0;
+	border-bottom-width: 1px;
+}
+
+.dropdown:hover .dropdown-content { /* Unhides dropdown items when hovered */
+	display: block;
+}
+
+.dropdown-content { /* Settings for dropdown items */
+	display: none;
+	position: absolute;
+	border-radius: 10px;
+	z-index: 1;
+}
+
+#hgtwins { /* HG Twins dropdown buttons same width as OG button */
+	min-width: 181px;
+}
+
+#otherlocations { /* Other Locations dropdown buttons same width as OG button */
+	min-width: 183px;
+}
+
+.dropdown-content .dropmid { /* Border for middle dropdown item */
+	border-radius: 0 0 0 0;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+
+.dropdown-content .dropbottom { /* Border for bottom dropdown item */
+	border-radius: 0 0 10px 10px;
+	border-top-width: 1px;
+}
+
+
+
+/* -- HTML & Body Styles -- */
+html { /* HTML settings */
+	margin: 0;
+	padding: 0;
+}
+
+body { /* Body settings */
+   margin: 0 auto;
+   padding: 0;
+   width: 100%;
+   color: white;
+}
+
+
+
+/* -- Main Styles -- */
+main { /* Sets contents of page to not touch edges of screen */
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+main h1#title { /* Titles in Planet Pages */
+	font-family: 'Josefin Sans', 'Century Gothic', sans-serif;
+	font-size: 4em;
+	text-align: center;
+	margin: 70px auto;
+}
+
+main > h2, main div.content > h2 { /* Section Titles */
+	margin: 70px auto 55px;
+	font-family: 'Josefin Sans', 'Century Gothic', sans-serif;
+	font-size: 2.5em;
+	text-align: center;
+	text-shadow: black 3px 4px 3px;
+}
+
+main > p, main div.content > p { /* Non-POI paragraphs */
+	font-family: 'Space Mono', 'Courier New', serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+main > p > a:link { /* Non-POI parapgragh links */
+	color: white;
+}
+
+main > p > a:visited { /* Non-POI parapgragh visited links */
+	color: grey;
+}
+
+main > img, main div.content > img { /* Single planet image */
+	display: block;
+	margin: 90px auto 110px;
+	width:45%;
+}
+
+#loopState div img { /* Loop state image settings */
+	display: block;
+	margin: 50px auto auto;
+	width: 90%;
+}
+
+#loopState figcaption, #locationState figcaption { /* Loop state image caption settings */
+	margin: auto;
+	padding: 20px;
+	font-family: 'Inconsolata', 'Courier New', serif;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+#loopState .column { /* Loop state image spacing */
+	padding: 20px 0px;
+}
+
+div.natPhenom video { /* Natural phenomena video settings */
+	display: block;
+	margin: 60px auto 130px;
+	width: 55%;
+}
+
+
+
+/* Side-by-side Image Styles */
+.row {
+	display: flex;
+} 
+
+
+
+/* -- POI Styles -- */
+main div.poiImgLeft, main div.poiImgRight { /* POI settings */
+	clear: both;
+}
+
+main div.poiImgLeft h3, main div.poiImgRight h3 { /* POI title settings */
+	font-family: 'Poppins', 'Century Gothic', sans-serif;
+	font-size: 1.75em;
+}
+
+main div.poiImgLeft h3, main div.poiImgLeft p { /* POI text settings */
+	text-align: right;
+}
+
+main div.poiImgLeft p, main div.poiImgRight p { /* POI paragraph settings */
+	font-family: 'Space Mono', 'Courier New', serif;
+	font-size: 20px;
+}
+
+main > div.poiImgLeft p, main > div.poiImgRight p { /* POI paragraph settings non-spoiler */
+	margin-bottom: 120px;
+}
+
+main div.poiImgLeft img, main div.poiImgRight img, 
+main div.poiImgLeft video, main div.poiImgRight video { /* POI rectangle image/video settings */
+	width: 35%;
+	clear: both;
+}
+
+main div.poiImgLeft img.squareImage, main div.poiImgRight img.squareImage { /* POI square image settings */
+	width: 25%;
+	clear: both;
+}
+
+main div.poiImgLeft img, main div.poiImgLeft video { /* Left aligned POI image/video settings */
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 15px;
+}
+
+main div.poiImgRight img, main div.poiImgRight video { /* Right aligned POI image/video settings */
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+
+main div.poiImgLeft p.multImages, main div.poiImgRight p.multImages { /* POI multiple images paragraph settings */
+	font-family: 'Space Mono', 'Courier New', serif;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+main div.poiImgLeft .multImages, main div.poiImgRight .multImages { /* Spacing for bottom item  */
+	margin-bottom: 120px;
+}
+
+#cityPhotos div img { /* City 3 image settings */
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+#cityPhotos figcaption { /* City 3 image caption settings */
+	margin: auto auto 120px;
+	padding: 20px;
+	font-family: 'Inconsolata', 'Courier New', serif;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+#cityPhotos .column { /* City 3 image spacing */
+	padding: 20px 0px;
+}
+
+
+
+
+/* -- Spoiler Styles -- */
+.collapsible { /* Spoiler button settings */
+	display: block;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	margin: auto;
+	width: 30%;
+	border-radius: 30px;
+	text-align: center;
+	outline: none;
+	font-family: 'Poppins', 'Century Gothic', sans-serif;
+	font-size: 1.75em;
+}
+
+.content { /* Part of the spoiler button fuction */
+	display: none;
+	overflow: hidden;
+}
+
+h3.belowButton { /* Makes spaces correct for item under spoiler button */
+	margin-top: 120px;
+}
+
+
+
+/* -- Footer Styles -- */
+footer {
+	color: white;	
+	display: block;
+	margin-top: 50px;
+	padding: 15px 15px 0px 15px;
+	font-family: 'Josefin Sans', 'Century Gothic', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+section.footer { /* Game links section */
+	margin: 40px 50px 0px;
+	padding: 0 40px 40px;
+}
+
+footer h2 { /* Where to Play title */
+	margin-bottom: 50px;
+}
+
+footer h3 { /* Back to Top button */
+	margin-top: 55px;
+	font-size: 18px;
+}
+ 
+footer h3 a:link, footer h3 a:visited, footer h3 a:active { /* Back to Top button */
+	text-decoration: none;
+	color: white;
+}
+
+footer h3 a:hover { /* Back to Top button */
+	text-shadow: 0 0 4px white;
+}
+
+section.footer div img { /* Game link image settings */
+	display: block;
+	margin: auto;
+	width: 22%;
+}
+

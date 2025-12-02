@@ -1,0 +1,81 @@
+/* ASH TWIN PAGE CSS STYLES */
+
+
+/* -- Navigation Bar -- */
+ul { /* The bar itself */
+	background-color: #3D281F;
+}
+
+ul li a { /*Inside of the buttons */
+	background-color: #67372C;
+}
+
+ul li a:hover, .dropdown:hover .dropbtn { /* Button hover color */
+	background-color: #AF8F65;
+}
+
+
+
+/* -- HTML & Body Styles -- */
+html { /* Sets background color */
+	background-color: #170A07;
+}
+
+
+
+/* Main Styles */
+main h1#title { /* Title */
+	text-shadow: #AF8F65 4px 4px ;
+}
+
+#loopState div img { /* Loop state image settings */
+	border: 5px solid #AF8F65;
+}
+
+div.natPhenom video { /* Natural phenomena video border settings */
+	border: 5px solid #AF8F65;
+}
+
+section#locationState div img { /* Loop state image settings */
+	display: block;
+	border: 5px solid #AF8F65;
+	margin: 50px auto 0px;
+	width: 90%;
+}
+
+section#locationState div img.secondRow { /* Loop state image settings */
+	width: 60%;
+}
+
+
+
+/* -- POI Styles -- */
+main div.poiImgLeft img.squareImage, main div.poiImgRight img.squareImage { /* POI square image settings */
+	border: 5px solid #AF8F65;
+}
+
+main div.poiImgLeft img, main div.poiImgRight img, 
+main div.poiImgLeft video, main div.poiImgRight video { /* POI rectangle image/video settings */
+	border: 5px solid #AF8F65;
+}
+
+
+
+/* -- Spoiler Styles -- */
+.collapsible {
+	background-color: #67372C;
+	border: 2px solid white;
+}
+
+.active, .collapsible:hover {
+	background-color: #3D281F;
+}
+
+
+
+
+/* -- Footer Styles -- */
+footer {
+	background-color: #3D281F;
+	clear: both;
+}

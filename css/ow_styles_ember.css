@@ -1,0 +1,70 @@
+/* EMBER TWIN PAGE CSS STYLES */
+
+
+/* -- Navigation Bar -- */
+ul { /* The bar itself */
+	background-color: #683E2B;
+}
+
+ul li a { /*Inside of the buttons */
+	background-color: #D0633A;
+}
+
+ul li a:hover, .dropdown:hover .dropbtn { /* Button hover color */
+	background-color: #AF8F65;
+}
+
+
+
+/* -- HTML * Body Styles -- */
+html { /* Sets background colors */
+	background-color: #301F19;
+}
+
+
+
+/* Main Styles */
+main h1#title { /* Title */
+	text-shadow: #9D5235 4px 4px ;
+}
+
+#loopState div img { /* Loop state image settings */
+	border: 5px solid #9D5235;
+}
+
+div.natPhenom video { /* Natural phenomena video border settings */
+	border: 5px solid #9D5235;
+}
+
+
+
+/* -- POI Styles -- */
+main div.poiImgLeft img, main div.poiImgRight img, 
+main div.poiImgLeft video, main div.poiImgRight video { /* POI image/video settings */
+	border: 5px solid #9D5235;
+}
+
+
+#cityPhotos div img { /* City 3 image settings */
+	border: 5px solid #9D5235;
+}
+
+
+
+/* -- Spoiler Styles -- */
+.collapsible {
+	background-color: #D0633A;
+	border: 2px solid white;
+}
+
+.active, .collapsible:hover {
+	background-color: #683E2B;
+}
+
+
+
+/* -- Footer Styles -- */
+footer {
+	background-color: #683E2B;
+	clear: both;
+}

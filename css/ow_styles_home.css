@@ -1,0 +1,95 @@
+/* HOME PAGE CSS STYLES */
+
+
+/* -- Banner & Navigation Bar -- */
+ul { /* The bar itself */
+	background-color: #0D262D;
+}
+
+ul li a { /*Inside of the buttons */
+	background-color: #FF7C24;
+}
+
+ul li a:hover, .dropdown:hover .dropbtn { /* Button hover color */
+	background-color: #F4C430;
+}
+
+
+
+/* -- HTML and Body Styles -- */
+html { /* Sets background image */
+	background-image: url("../images/banner_starry_bg.jpg");
+	background-color: black;
+}
+
+
+/* -- Main Styles -- */
+main section h2 { /* Section title settings */
+	background-color: black;
+	margin: 50px auto;
+	padding: 15px;
+	border: 3px solid white;
+	border-radius: 30px;
+	font-family: 'Poppins', 'Century Gothic', sans-serif;
+	font-size: 2.75em;
+	text-align: center;
+	width: 50%;
+}
+
+main section > div#about{ /* About paragraph settings */
+	background-color: black;
+	padding: 25px 40px;
+	border: 3px solid white;
+	font-family: 'Space Mono', 'Courier New', serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+main section div > p#homeWarning { /* Font size for PLEASE NOTE section */
+	font-size: 22px;
+}
+
+main > img { /* Planetary Chart */
+	display: block;
+	margin: 65px auto;
+	border: 5px solid white;
+	width: 75%;
+}
+
+section.homePlanet div img { /* Planet list settings */
+	display: block;
+	border: 5px solid white;
+	margin: auto;
+	width: 85%;
+}
+
+section.homePlanet div a:hover img { /* Planet list hover glow */
+	box-shadow: white 0px 0px 25px;
+}
+
+section.homePlanet p { /* Planet list title settings */
+	display: block;
+	background-color: black;
+	margin: 20px auto auto;
+	padding: 10px 0px;
+	border: 3px solid white;
+	border-radius: 30px;
+	font-family: 'Poppins', 'Century Gothic', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	word-wrap: break-word;
+	width: 45%;
+}
+
+.homePlanet .column { /* Padding for side-by-side images */
+	padding: 10px 10px 40px 10px;
+}
+
+
+
+/* -- Footer Styles -- */
+footer {
+	background-color: #0D262D;
+}
+

@@ -1,0 +1,64 @@
+/* GIANT'S DEEP PAGE CSS STYLES */
+
+
+/* -- Navigation Bar -- */
+ul { /* The bar itself */
+	background-color: #2A3C22;
+}
+
+ul li a { /*Inside of the buttons */
+	background-color: #2A4538;
+}
+
+ul li a:hover, .dropdown:hover .dropbtn { /* Button hover color */
+	background-color: #737A63;
+}
+
+
+
+/* -- HTML * Body Styles -- */
+html { /* Sets background color */
+	background-image: linear-gradient(to bottom, #666E35, #414721, #323A22, #414721, #666E35);
+}
+
+
+
+/* Main Styles */
+main h1#title { /* Title */
+	text-shadow: #737A63 4px 4px ;
+}
+
+main > img { /* Single planet image */
+	border: 5px solid #0E1918;
+}
+
+div.natPhenom video { /* Natural phenomena video border settings */
+	border: 5px solid #0E1918;
+}
+
+
+
+/* -- POI Styles -- */
+main div.poiImgLeft img, main div.poiImgRight img, 
+main div.poiImgLeft video, main div.poiImgRight video { /* POI image/video settings */
+	border: 5px solid #0E1918;
+}
+
+
+
+/* -- Spoiler Styles -- */
+.collapsible {
+	background-color: #2A4538;
+	border: 2px solid white;
+}
+
+.active, .collapsible:hover {
+	background-color: #2A3C22;
+}
+
+
+
+/* -- Footer Styles -- */
+footer {
+	background-color: #2A3C22;
+}

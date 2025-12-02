@@ -1,0 +1,76 @@
+/* DARK BRAMBLE PAGE CSS STYLES */
+
+/* -- Navigation Bar -- */
+ul { /* The bar itself */
+	background-color: #141A1C;
+}
+
+ul li a { /*Inside of the buttons */
+	background-color: #3C514C;
+}
+
+ul li a:hover, .dropdown:hover .dropbtn { /* Button hover color */
+	background-color: #787566;
+}
+
+
+
+/* -- HTML * Body Styles -- */
+html { /* Sets background color */
+	background-image: linear-gradient(to bottom, #504427, #453626, #29221B);
+}
+
+
+
+/* Main Styles */
+main h1#title { /* Title */
+	text-shadow: #29221B 4px 4px ;
+}
+
+main > img { /* Single planet image */
+	border: 5px solid #3C514C;
+}
+
+div.natPhenom video { /* Natural phenomena video border settings */
+	border: 5px solid #0E1918;
+}
+
+
+
+/* -- POI Styles -- */
+main div.content > div.poiImgLeft p, main div.content > div.poiImgRight p { /* POI text settings non-spoiler */
+	margin-bottom: 120px;
+}
+
+main div.content > div > div.poiImgLeft p, main div.content > div > div.poiImgRight p { /* Removes double spacing */
+	margin-bottom: 0;
+}
+
+main div.poiImgLeft img, main div.poiImgRight img, 
+main div.poiImgLeft video, main div.poiImgRight video { /* POI image/video settings */
+	border: 5px solid #3C514C;
+}
+
+
+
+/* -- Spoiler Styles -- */
+.collapsible {
+	background-color: #3C514C;
+	border: 2px solid white;
+}
+
+.active, .collapsible:hover {
+	background-color: #141A1C;
+}
+
+#spoiler.collapsible {
+	width: 60%;
+	margin: 120px auto;
+}
+
+
+
+/* -- Footer Styles -- */
+footer {
+	background-color: #141A1C;
+}

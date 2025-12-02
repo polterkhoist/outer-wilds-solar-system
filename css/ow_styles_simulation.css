@@ -1,0 +1,67 @@
+/* STRANGER SIMULATION PAGE CSS STYLES */
+
+/* -- Navigation Bar -- */
+ul { /* The bar itself */
+	background-color: #1F4757;
+}
+
+ul li a { /*Inside of the buttons */
+	background-color: #476F63;
+}
+
+ul li a:hover, .dropdown:hover .dropbtn { /* Button hover color */
+	background-color: #927D5B;
+}
+
+
+
+/* -- HTML * Body Styles -- */
+html { /* Sets background color */
+	background-image: url("../images/banner_sim_bg.jpg");
+	background-color: black;
+}
+
+
+
+/* Main Styles */
+main h1#title { /* Title */
+	text-shadow: #59E6AF 4px 4px ;
+	color: #0EA960;
+}
+
+main > img { /* Single planet image */
+	border: 5px solid #476F63;
+}
+
+main h1 { /* Section title settings */
+	color: #0EA960;
+	text-shadow: #59E6AF 2px 3px 3px;
+}
+
+
+
+/* -- POI Styles -- */
+main div.poiImgLeft img, main div.poiImgRight img, 
+main div.poiImgLeft video, main div.poiImgRight video { /* POI image/video settings */
+	border: 5px solid #476F63;
+}
+
+
+
+/* -- Spoiler Styles -- */
+.collapsible {
+	background-color: #476F63;
+	border: 2px solid white;
+}
+
+.active, .collapsible:hover {
+	background-color: #1F4757;
+}
+
+
+
+
+/* -- Footer Styles -- */
+footer {
+	background-color: #1F4757;
+}

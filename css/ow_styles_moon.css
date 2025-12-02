@@ -1,0 +1,84 @@
+/* QUANTUM MOON PAGE CSS STYLES */
+
+
+/* -- Navigation Bar -- */
+ul { /* The bar itself */
+	background-color: #323241;
+}
+
+ul li a { /*Inside of the buttons */
+	background-color: #5D6172;
+}
+
+ul li a:hover, .dropdown:hover .dropbtn { /* Button hover color */
+	background-color: #888B98;
+}
+
+
+
+/* -- HTML * Body Styles -- */
+html { /* Sets background color */
+	background-image: linear-gradient(to bottom, #0E0E2C, #20255A, #33578C, #47355A, #694A52, #47355A, #33578C, #20255A);
+}
+
+
+
+/* Main Styles */
+main h1#title { /* Title */
+	text-shadow: #0E0E2C 4px 4px ;
+}
+
+main > img, main div.content > img { /* Single planet image */
+	border: 5px solid #0E0E2C;
+}
+
+div.natPhenom video { /* Natural phenomena video border settings */
+	border: 5px solid #0E0E2C;
+}
+
+section#locationState div img { /* Loop state image settings */
+	display: block;
+	border: 5px solid #0E0E2C;
+	margin: 50px auto auto;
+	width: 100%;
+}
+
+
+
+/* -- POI Styles -- */
+main div.content > div.poiImgLeft p, main div.content > div.poiImgRight p { /* POI text settings non-spoiler */
+	margin-bottom: 120px;
+}
+
+main div.content > div > div.poiImgLeft p, main div.content > div > div.poiImgRight p { /* Removes double spacing */
+	margin-bottom: 0;
+}
+
+main div.poiImgLeft img, main div.poiImgRight img, 
+main div.poiImgLeft video, main div.poiImgRight video { /* POI image/video settings */
+	border: 5px solid #0E0E2C;
+}
+
+
+
+/* -- Spoiler Styles -- */
+.collapsible {
+	background-color: #5D6172;
+	border: 2px solid white;
+}
+
+.active, .collapsible:hover {
+	background-color: #323241;
+}
+
+#spoiler.collapsible {
+	width: 60%;
+	margin: 120px auto;
+}
+
+
+
+/* -- Footer Styles -- */
+footer {
+	background-color: #323241;
+}

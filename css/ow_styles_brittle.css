@@ -1,0 +1,72 @@
+/* BRITTLE HOLLOW PAGE CSS STYLES */
+
+
+/* -- Navigation Bar -- */
+ul { /* The bar itself */
+	background-color: #2B3A4D;
+}
+
+ul li a { /*Inside of the buttons */
+	background-color: #385F7C;
+}
+
+ul li a:hover, .dropdown:hover .dropbtn { /* Button hover color */
+	background-color: #9DA596;
+}
+
+
+
+/* -- HTML * Body Styles -- */
+html { /* Sets background color */
+	background-image: linear-gradient(to bottom, #2E1738, #482034, #893343, #8A4741);
+}
+
+
+
+/* Main Styles */
+main h1#title { /* Title */
+	text-shadow: #893343 4px 4px ;
+}
+
+#loopState div img { /* Loop state image settings */
+	border: 5px solid #385F7C;
+}
+
+main > img { /* White Hole image */
+	border: 5px solid #385F7C;
+}
+
+div.natPhenom video { /* Natural phenomena video border settings */
+	border: 5px solid #385F7C;
+}
+
+
+
+/* -- POI Styles -- */
+main div.poiImgLeft img, main div.poiImgRight img, 
+main div.poiImgLeft video, main div.poiImgRight video { /* POI image/video settings */
+	border: 5px solid #385F7C;
+}
+
+#cityPhotos div img { /* City 3 image settings */
+	border: 5px solid #385F7C;
+}
+
+
+
+/* -- Spoiler Styles -- */
+.collapsible {
+	background-color: #385F7C;
+	border: 2px solid white;
+}
+
+.active, .collapsible:hover {
+	background-color: #2B3A4D;
+}
+
+
+
+/* -- Footer Styles -- */
+footer {
+	background-color: #2B3A4D;
+}
