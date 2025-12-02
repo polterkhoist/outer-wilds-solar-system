@@ -207,6 +207,10 @@ main > div.poiImgLeft p, main > div.poiImgRight p { /* POI paragraph settings no
 	margin-bottom: 120px;
 }
 
+main div.content > div.poiImgLeft p, main div.content > div.poiImgRight p { /* POI text settings non-spoiler for full-spoilered pages */
+	margin-bottom: 120px;
+}
+
 main div.poiImgLeft img, main div.poiImgRight img, 
 main div.poiImgLeft video, main div.poiImgRight video { /* POI rectangle image/video settings */
 	width: 35%;
@@ -231,13 +235,23 @@ main div.poiImgRight img, main div.poiImgRight video { /* Right aligned POI imag
 }
 
 main div.poiImgLeft p.multImages, main div.poiImgRight p.multImages { /* POI multiple images paragraph settings */
-	font-family: 'Space Mono', 'Courier New', serif;
-	font-size: 20px;
 	margin-bottom: 30px;
 }
 
 main div.poiImgLeft .multImages, main div.poiImgRight .multImages { /* Spacing for bottom item  */
 	margin-bottom: 120px;
+}
+
+main div.content div.poiImgLeft p.multImages, main div.content div.poiImgRight p.multImages { /* POI multiple images paragraph settings for full-spoilered pages */
+	margin-bottom: 30px;
+}
+
+main div.content div.poiImgLeft .multImages, main div.poiImgRight .multImages { /* Spacing for bottom item for full-spoilered pages */
+	margin-bottom: 120px;
+}
+
+main div.content > div > div.poiImgLeft p, main div.content > div > div.poiImgRight p { /* Removes double spacing for spoiler text */
+	margin-bottom: 0;
 }
 
 #cityPhotos div img { /* City 3 image settings */

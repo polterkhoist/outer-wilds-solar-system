@@ -46,14 +46,6 @@ section#locationState div img { /* Loop state image settings */
 
 
 /* -- POI Styles -- */
-main div.content > div.poiImgLeft p, main div.content > div.poiImgRight p { /* POI text settings non-spoiler */
-	margin-bottom: 120px;
-}
-
-main div.content > div > div.poiImgLeft p, main div.content > div > div.poiImgRight p { /* Removes double spacing */
-	margin-bottom: 0;
-}
-
 main div.poiImgLeft img, main div.poiImgRight img, 
 main div.poiImgLeft video, main div.poiImgRight video { /* POI image/video settings */
 	border: 5px solid #0E0E2C;
