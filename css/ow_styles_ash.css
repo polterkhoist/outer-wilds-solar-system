@@ -36,14 +36,14 @@ div.natPhenom video { /* Natural phenomena video border settings */
 	border: 5px solid #AF8F65;
 }
 
-section#locationState div img { /* Loop state image settings */
+#locationState div img { /* Loop state image settings */
 	display: block;
 	border: 5px solid #AF8F65;
 	margin: 50px auto 0px;
 	width: 90%;
 }
 
-section#locationState div img.secondRow { /* Loop state image settings */
+#locationState div img.secondRow { /* Loop state image settings */
 	width: 60%;
 }
 

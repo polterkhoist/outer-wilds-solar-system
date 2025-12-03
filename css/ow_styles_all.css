@@ -170,7 +170,7 @@ main > img, main div.content > img { /* Single planet image */
 	font-size: 1.25em;
 }
 
-section#locationState { /* Adds spacing after #locationState sections */
+#locationState { /* Adds spacing after #locationState sections */
 	margin-bottom: 120px;
 }
 

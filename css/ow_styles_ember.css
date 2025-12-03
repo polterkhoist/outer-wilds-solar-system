@@ -36,7 +36,7 @@ div.natPhenom video { /* Natural phenomena video border settings */
 	border: 5px solid #9D5235;
 }
 
-section#locationState div img { /* City image settings */
+#locationState div img { /* City image settings */
 	display: block;
 	border: 5px solid #9D5235;
 	margin: 50px auto 0px;
