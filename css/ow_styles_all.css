@@ -137,12 +137,17 @@ main > p, main div.content > p { /* Non-POI paragraphs */
 	text-align: center;
 }
 
-main > p > a:link { /* Non-POI parapgragh links */
+p > a:link { /* Parapgragh links */
 	color: white;
 }
 
-main > p > a:visited { /* Non-POI parapgragh visited links */
-	color: grey;
+p > a:visited { /* Parapgragh visited links */
+	color: white;
+}
+
+p > a:hover { /* Parapgragh links hover glow */
+	color: white;
+	text-shadow: white 0 0 3px;
 }
 
 main > img, main div.content > img { /* Single planet image */
@@ -163,6 +168,10 @@ main > img, main div.content > img { /* Single planet image */
 	font-family: 'Inconsolata', 'Courier New', serif;
 	text-align: center;
 	font-size: 1.25em;
+}
+
+section#locationState { /* Adds spacing after #locationState sections */
+	margin-bottom: 120px;
 }
 
 #loopState .column { /* Loop state image spacing */
@@ -203,7 +212,7 @@ main div.poiImgLeft p, main div.poiImgRight p { /* POI paragraph settings */
 	font-size: 20px;
 }
 
-main div.content > div.poiImgLeft p, main div.content > div.poiImgRight p { /* Removes double spacing for spoiler text CONFLICTING */
+main div.content > div.poiImgLeft p, main div.content > div.poiImgRight p { /* Removes double spacing for spoiler text */
 	margin-bottom: 0;
 }
 
@@ -215,11 +224,9 @@ main > div.poiImgLeft p, main > div.poiImgRight p { /* POI paragraph settings no
 	margin-bottom: 120px;
 }
 
-main > div#fullSpoiler > div.poiImgLeft p, main > div#fullSpoiler > div.poiImgRight p { /* POI paragraph settings non-spoiler for full-spoilered pages CONFLICTING */
+main > div#fullSpoiler > div.poiImgLeft p, main > div#fullSpoiler > div.poiImgRight p { /* POI paragraph settings non-spoiler for full-spoilered pages */
 	margin-bottom: 120px;
 }
-
-/* using #fullSpoiler fixes normal pages but breaks full spoiler pages */
 
 main div.poiImgLeft img, main div.poiImgRight img, 
 main div.poiImgLeft video, main div.poiImgRight video { /* POI rectangle image/video settings */
@@ -228,7 +235,7 @@ main div.poiImgLeft video, main div.poiImgRight video { /* POI rectangle image/v
 }
 
 main div.poiImgLeft img.squareImage, main div.poiImgRight img.squareImage { /* POI square image settings */
-	width: 25%;
+	width: 23%;
 	clear: both;
 }
 
