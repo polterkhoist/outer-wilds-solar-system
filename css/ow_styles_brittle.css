@@ -40,6 +40,13 @@ div.natPhenom video { /* Natural phenomena video border settings */
 	border: 5px solid #385F7C;
 }
 
+#locationState div img { /* City image settings */
+	display: block;
+	border: 5px solid #385F7C;
+	margin: 50px auto 0px;
+	width: 70%;
+}
+
 
 
 /* -- POI Styles -- */
